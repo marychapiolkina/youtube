@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<head>
+<title>ютюб</title>
+</head>
+<style>
+#shapka{
+      position:fixed;
+	  background-color:#AC54FC;
+	  width:100%;
+	  height:56px;
+	  top:0;
+	  padding:0 16px;
+	  padding-top: 20px;
+	  margin-left -10px;
+	  z-index:100px
+}
+
+#shapka input{
+	height: 20px;
+}
+#osnova{
+      position:absolute;
+	  width:100%;
+	  left:0px;
+	  top:60px; 
+	  background-color:#46FB9D;
+	  height:5000px;//ВРЕМЕННО!!!
+}
+#vidosiki{
+      position:absolute;
+	  left:240px;
+}
+#menu-left{
+      position:fixed;
+	  background-color:#FC5464;
+	  width:240px;
+	  left:0px;
+	  height:1000px;
+	  overflow:auto;
+	  z-index: 50;
+}
+</style>
+<body>
+<div id="shapka">
+	    <form method="get" action="http://youtube.com/results">
+		    <input name="search_query"/>
+            <input type="submit" value="Искать"
+			style="height: 20px;"/>
+		</form>
+</div>
+<div id="osnova">
+       <div id="menu-left">
+	   </div>
+	   <div id="vidosiki">
+	   </div>
+</div>
+</body>
+	  
